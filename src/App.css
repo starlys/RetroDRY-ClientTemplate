@@ -1,0 +1,165 @@
+/* TODO: Replace the "reset styles" section with your own complete stylesheet, and/or copy the "importable RetroDRY styles" section
+   from here into your actual style sheet, making changes as necessary
+ */
+ 
+/* BEGIN RESET STYLES - extremely minimal set of styles; you probably already have these in your app */
+html, body {
+  margin:0;
+  height: 100%;
+}
+input, select, textarea, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+select {
+  padding: 2px;
+}
+/* END RESET STYLES */
+
+/* BEGIN IMPORTABLE RETRODRY STYLES - These will be needed in any app using a datonstack, but you can adjust to fit your theme */
+.daton {
+  max-width: 90em; 
+  margin: 1em 0;
+}
+.daton .daton-banner {
+  color: white;
+  background-color: gray;
+  font-size: 1.2em;
+  padding: 1px 0.5em;
+}
+.daton .daton-banner .right {
+  float: right;
+}
+.daton .daton-banner button {
+  margin: 0 1em;
+  position: relative;
+  top: -2px;
+}
+.daton .grid-banner {
+  color: white;
+  background-color: #99a;
+  font-size: 1.1em;
+  padding: 1px 0.5em;
+  margin-top: 2px;
+}
+.daton .daton-errors {
+  background-color: #fde;
+  border: solid 1px red;
+  list-style-position: inside;
+  padding: 0.5em;
+}
+.daton .criteria-block {
+  background-color: #ffe;
+  border: solid 1px gray;
+  padding: 0.4em;
+}
+.daton fieldset.card.border {
+  border-color: blue;
+}
+.daton legend {
+  color: blue;
+}
+.daton fieldset {
+  display: inline-block;
+}
+.daton fieldset.card.no-border {
+  border: none;
+  padding: 0;
+}
+.daton .card-vert {
+  display: block;
+  margin-top: 0.3em;
+}
+.daton .card-horz {
+  display: inline-block;
+}
+.daton .card-label {
+  display:block;
+  font-weight: bold;
+  color:silver;
+}
+.daton .card-value {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: inherit;
+}
+.daton .grid-wrap {
+  max-height: 40em;
+  overflow-y: auto;
+}
+.daton .grid {
+  border-collapse: collapse;
+}
+.daton .grid th {
+  color: silver;
+}
+.daton .grid-sortable {
+  cursor: pointer;
+}
+.daton .grid-sortable:hover {
+  text-decoration: underline;
+}
+.daton .grid td {
+  margin: 0;
+  border: solid silver 1px;
+  background-color: #eef;
+  cursor: pointer;
+}
+.daton .grid-fk:hover {
+  text-decoration: underline;
+}
+.daton .page-select-panel {
+  text-align: center;
+  padding: 2px 0;
+  background-color: #eee;
+}
+.daton .page-select-panel button.current {
+  background-color: lightyellow;
+}
+.daton td.card-in-grid {
+  background-color: inherit;
+  border-left: solid 2px gray;
+  cursor: inherit;
+}
+.daton .inputwrap {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
+.daton .inputwrap.invalid {
+  border-left: solid red 8px;
+}
+.daton .inputwrap input, .daton .inputwrap textarea, .daton .inputwrap select {
+  width: calc(100% - 12px);
+}
+.daton .inputwrap.has-btn input, .daton .inputwrap.has-btn textarea, .daton .inputwrap.has-btn select {
+  width: calc(100% - 32px);
+}
+.daton .inputwrap textarea {
+  height: 3.5em;
+  resize: vertical;
+}
+.daton .popup-error {
+  position: absolute;
+  display: inline-block;
+  width: 30em;
+  height: 1.1em;
+  overflow: hidden;
+  top: -1.6em;
+  left: -4px;
+  outline: solid red 1px;
+  background-color: #fde;
+  padding: 0.2em;
+}
+.daton .criterion {
+  width: 5em;
+}
+.daton input.criterion.number {
+  width: 3em;
+}
+.daton input.date {
+  width: 10em;
+}
+.daton .btn-delete-row {
+  color: red;
+}
+/* END IMPORTABLE RETRODRY STYLES */
