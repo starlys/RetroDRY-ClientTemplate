@@ -6,8 +6,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "retrodryclient": "^1.4.1",
-    "retrodryreact": "^1.4.1"
+    "retrodryclient": "^1.5.0",
+    "retrodryreact": "^1.5.0"
   },
   "scripts": {
     "start": "set HTTPS=true&&react-scripts start --no-cache",
